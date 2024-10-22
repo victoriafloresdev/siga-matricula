@@ -1,0 +1,100 @@
+area,subarea,subarea2,codigo,nome,categoria,curso,periodo
+Ciências Exatas,Programação,Lógica de Programação,SI101,Introdução à Programação,Mandatória,Sistemas de Informação,2º
+Ciências Exatas,Banco de Dados,Modelagem de Dados,SI102,Banco de Dados I,Mandatória,Sistemas de Informação,2º
+Ciências Exatas,Engenharia de Software,Processos de Software,SI103,Engenharia de Software I,Mandatória,Sistemas de Informação,2º
+Ciências Exatas,Sistemas de Informação,Arquitetura de Sistemas,SI104,Fundamentos de Sistemas de Informação,Mandatória,Sistemas de Informação,2º
+Ciências Exatas,Desenvolvimento Web,Front-end,SI105,Desenvolvimento Web I,Mandatória,Sistemas de Informação,2º
+Ciências Exatas,Arquitetura de Computadores,Hardware,SI106,Arquitetura e Organização de Computadores,Mandatória,Sistemas de Informação,3º
+Ciências Exatas,Inteligência Artificial,Machine Learning,SI201,Introdução à Inteligência Artificial,Optativa,Sistemas de Informação,4º
+Ciências Exatas,Segurança da Informação,Criptografia,SI202,Segurança da Informação,Optativa,Sistemas de Informação,4º
+Ciências Exatas,Computação Gráfica,Modelagem 3D,SI203,Fundamentos de Computação Gráfica,Optativa,Sistemas de Informação,5º
+Ciências Exatas,Sistemas Distribuídos,Comunicação Distribuída,SI204,Sistemas Distribuídos,Optativa,Sistemas de Informação,5º
+Ciências Exatas,Matemática,Cálculo Diferencial,MATH101,Cálculo I,Mandatória,Sistemas de Informação,1º
+Ciências Exatas,Matemática,Álgebra Vetorial,MATH102,Álgebra Linear,Mandatória,Sistemas de Informação,1º
+Ciências Exatas,Física,Mecânica,PHYS101,Física I,Optativa,Sistemas de Informação,3º
+Ciências Exatas,Estatística,Probabilidade,STAT101,Estatística Básica,Mandatória,Sistemas de Informação,1º
+Ciências Exatas,Banco de Dados,Administração de Dados,SI205,Administração de Banco de Dados,Optativa,Sistemas de Informação,4º
+Ciências Exatas,Redes de Computadores,Protocolos de Rede,SI206,Redes de Computadores I,Optativa,Sistemas de Informação,3º
+Ciências Exatas,Segurança de Sistemas,Gestão de Riscos,SI107,Segurança de Sistemas I,Mandatória,Sistemas de Informação,3º
+Ciências Exatas,Desenvolvimento Mobile,Aplicações Móveis,SI207,Desenvolvimento para Dispositivos Móveis,Optativa,Sistemas de Informação,4º
+Ciências Exatas,Fundamentos da Computação,Teoria da Computação,SI108,Fundamentos Teóricos da Computação,Mandatória,Sistemas de Informação,1º
+Ciências Exatas,Robótica,Autômatos,SI208,Robótica,Optativa,Sistemas de Informação,6º
+Ciências Exatas,Empreendedorismo,Startup e Inovação,SI209,Empreendedorismo em Tecnologia,Optativa,Sistemas de Informação,6º
+Ciências Exatas,Sociologia,Sociologia Geral,SOC101,Introdução à Sociologia,Optativa,Sistemas de Informação,1º
+Ciências Exatas,Economia,Microeconomia,ECON101,Introdução à Economia,Optativa,Sistemas de Informação,3º
+Ciências Exatas,Análise de Algoritmos,Complexidade Computacional,SI109,Análise e Complexidade de Algoritmos,Mandatória,Sistemas de Informação,3º
+Ciências Exatas,Teoria da Computação,Autômatos Finitos,SI110,Teoria da Computação,Mandatória,Sistemas de Informação,4º
+Ciências Exatas,Linguagens de Programação,Sintaxe e Semântica,SI111,Linguagens de Programação I,Mandatória,Sistemas de Informação,3º
+Ciências Exatas,Computação em Nuvem,Serviços de Nuvem,SI210,Introdução à Computação em Nuvem,Optativa,Sistemas de Informação,5º
+Ciências Exatas,Gestão de Projetos,PMBOK,SI211,Gestão de Projetos de TI,Optativa,Sistemas de Informação,6º
+Ciências Exatas,Big Data,Armazenamento de Dados,SI212,Fundamentos de Big Data,Optativa,Sistemas de Informação,6º
+Ciências Exatas,Internet das Coisas,Dispositivos Conectados,SI213,Introdução à Internet das Coisas,Optativa,Sistemas de Informação,5º
+Ciências Exatas,Ciência de Dados,Análise de Dados,SI214,Introdução à Ciência de Dados,Optativa,Sistemas de Informação,7º
+Ciências Exatas,Criptografia,Algoritmos Criptográficos,SI215,Criptografia e Segurança de Dados,Optativa,Sistemas de Informação,7º
+Ciências Exatas,Sistemas Operacionais,Processos e Threads,SI112,Sistemas Operacionais I,Mandatória,Sistemas de Informação,4º
+Ciências Exatas,Realidade Virtual,Ambientes Imersivos,SI216,Realidade Virtual e Aumentada,Optativa,Sistemas de Informação,8º
+Ciências Exatas,Computação Pervasiva,Contextos Inteligentes,SI217,Computação Pervasiva,Optativa,Sistemas de Informação,8º
+Ciências Exatas,Filosofia,Ética,PHIL101,Introdução à Filosofia,Optativa,Sistemas de Informação,2º
+Ciências Exatas,Psicologia,Psicologia do Trabalho,PSY101,Psicologia Organizacional,Optativa,Sistemas de Informação,5º
+Ciências Exatas,Sustentabilidade,Tecnologias Verdes,SI218,Tecnologias Sustentáveis,Optativa,Sistemas de Informação,6º
+Ciências Exatas,Gestão de TI,Infraestrutura,SI219,Gestão de Infraestrutura de TI,Optativa,Sistemas de Informação,6º
+Ciências Exatas,Sistemas de Informação Geográfica,Mapeamento Digital,SI220,SIG (Sistemas de Informação Geográfica),Optativa,Sistemas de Informação,7º
+Ciências Exatas,Simulação,Simulação de Processos,SI221,Simulação Computacional,Optativa,Sistemas de Informação,7º
+Ciências Exatas,Redes Neurais,Deep Learning,SI222,Introdução às Redes Neurais,Optativa,Sistemas de Informação,8º
+Ciências Exatas,Visão Computacional,Reconhecimento de Imagens,SI223,Visão Computacional,Optativa,Sistemas de Informação,8º
+Ciências Exatas,Sistemas Inteligentes,Agentes Inteligentes,SI224,Sistemas Inteligentes,Optativa,Sistemas de Informação,9º
+Ciências Exatas,Direito,Direito Digital,LAW101,Direito Digital,Optativa,Sistemas de Informação,3º
+Ciências Exatas,Engenharia de Software,Métodos Ágeis,SI225,Métodos Ágeis,Optativa,Sistemas de Informação,4º
+Ciências Exatas,Bioinformática,Sequenciamento de DNA,SI226,Introdução à Bioinformática,Optativa,Sistemas de Informação,8º
+Ciências Exatas,Governança de TI,Compliance,SI227,Governança de TI,Optativa,Sistemas de Informação,9º
+Ciências Exatas,Computação Forense,Análise Forense,SI228,Computação Forense,Optativa,Sistemas de Informação,9º
+Ciências Humanas,Filosofia,Ética,PHIL101,Introdução à Filosofia,Mandatória,Filosofia,1º
+Ciências Humanas,Filosofia,Filosofia Política,PHIL102,Ética e Filosofia Política,Mandatória,Filosofia,2º
+Ciências Humanas,História,História do Brasil,HIST101,História do Brasil,Mandatória,História,2º
+Ciências Humanas,História,História Cultural,HIST102,História da Cultura,Mandatória,História,2º
+Ciências Humanas,Psiquiatria,Psiquiatria Geral,PSY101,Psicologia Geral,Mandatória,Psicologia,1º
+Ciências Humanas,Psiquiatria,Psiquiatria do Desenvolvimento,PSY102,Psicologia do Desenvolvimento,Mandatória,Psicologia,2º
+Ciências Humanas,Geografia,Geografia Humana,GEO101,Geografia Humana,Mandatória,Geografia,1º
+Ciências Humanas,Geografia,Geopolítica,GEO102,Geopolítica e Sociedade,Mandatória,Geografia,2º
+Ciências Humanas,Linguística,Sociolinguística,LING101,Sociolinguística,Mandatória,Letras,2º
+Ciências Humanas,Linguística,Linguagem e Sociedade,LING102,Linguagem e Sociedade,Mandatória,Letras,3º
+Ciências Econômicas,Economia,Microeconomia,ECON101,Microeconomia I,Mandatória,Economia,1º
+Ciências Econômicas,Economia,Macroeconomia,ECON102,Macroeconomia I,Mandatória,Economia,2º
+Ciências Econômicas,Economia,Economia Internacional,ECON103,Economia Internacional,Optativa,Economia,3º
+Ciências Econômicas,Administração,Gestão de Empresas,ADM101,Administração de Empresas,Mandatória,Administração,1º
+Ciências Econômicas,Administração,Gestão Estratégica,ADM102,Gestão Estratégica,Mandatória,Administração,2º
+Ciências Econômicas,Contabilidade,Contabilidade Financeira,CONT101,Contabilidade Básica,Mandatória,Contabilidade,1º
+Ciências Econômicas,Contabilidade,Análise Financeira,CONT102,Análise Financeira,Mandatória,Contabilidade,2º
+Ciências Econômicas,Marketing,Fundamentos de Marketing,MKT101,Fundamentos de Marketing,Optativa,Administração,3º
+Ciências Econômicas,Marketing,Comportamento do Consumidor,MKT102,Comportamento do Consumidor,Optativa,Administração,4º
+Ciências Econômicas,Empreendedorismo,Inovação,EMP101,Empreendedorismo e Inovação,Optativa,Economia,3º
+Ciências Sociais,Sociologia,Sociologia Geral,SOC101,Introdução à Sociologia,Mandatória,Sociologia,1º
+Ciências Sociais,Sociologia,Sociologia do Trabalho,SOC102,Sociologia do Trabalho,Mandatória,Sociologia,2º
+Ciências Sociais,Antropologia,Antropologia Cultural,ANTH101,Antropologia Cultural,Mandatória,Antropologia,1º
+Ciências Sociais,Antropologia,Etnografia,ANTH102,Etnografia,Optativa,Antropologia,2º
+Ciências Sociais,Ciência Política,Teoria Política,POL101,Introdução à Ciência Política,Mandatória,Ciência Política,1º
+Ciências Sociais,Ciência Política,Sistemas Políticos,POL102,Sistemas Políticos Comparados,Optativa,Ciência Política,2º
+Ciências Sociais,Comunicação,Teoria da Comunicação,COM101,Teoria da Comunicação,Mandatória,Comunicação Social,1º
+Ciências Sociais,Comunicação,Mídia e Sociedade,COM102,Mídia e Sociedade,Optativa,Comunicação Social,2º
+Ciências Sociais,Relações Internacionais,Geopolítica,RI101,Introdução às Relações Internacionais,Mandatória,Relações Internacionais,1º
+Ciências Sociais,Relações Internacionais,Geopolítica Internacional,RI102,Geopolítica Internacional,Optativa,Relações Internacionais,2º
+Ciências Biológicas,Biologia,Biologia Molecular,BIO101,Biologia Geral,Mandatória,Biologia,1º
+Ciências Biológicas,Biologia,Genética,BIO102,Genética e Evolução,Mandatória,Biologia,2º
+Ciências Biológicas,Ecologia,Ecologia Básica,ECOL101,Ecologia Básica,Mandatória,Biologia,3º
+Ciências Biológicas,Ecologia,Conservação,ECOL102,Conservação da Biodiversidade,Optativa,Biologia,4º
+Ciências Biológicas,Zoologia,Zoologia dos Invertebrados,ZOO101,Zoologia dos Invertebrados,Mandatória,Biologia,2º
+Ciências Biológicas,Zoologia,Zoologia dos Vertebrados,ZOO102,Zoologia dos Vertebrados,Mandatória,Biologia,3º
+Ciências Biológicas,Botânica,Botânica Geral,BOT101,Botânica Geral,Mandatória,Biologia,1º
+Ciências Biológicas,Botânica,Botânica Aplicada,BOT102,Botânica Aplicada,Optativa,Biologia,2º
+Ciências Biológicas,Microbiologia,Microbiologia Geral,MIC101,Microbiologia Básica,Mandatória,Biologia,3º
+Ciências Biológicas,Microbiologia,Imunologia,MIC102,Imunologia,Optativa,Biologia,4º
+Artes,Artes Visuais,História da Arte,ART101,História da Arte,Mandatória,Artes Visuais,1º
+Artes,Artes Visuais,Desenho Técnico,ART102,Técnicas de Desenho,Mandatória,Artes Visuais,2º
+Artes,Música,Teoria Musical,MUS101,Introdução à Teoria Musical,Mandatória,Música,1º
+Artes,Música,Prática Instrumental,MUS102,Prática Instrumental,Mandatória,Música,2º
+Artes,Teatro,História do Teatro,THE101,História do Teatro,Mandatória,Teatro,1º
+Artes,Teatro,Interpretação,THE102,Interpretação Teatral,Optativa,Teatro,2º
+Artes,Dança,Dança Contemporânea,DAN101,Dança Contemporânea,Optativa,Dança,2º
+Artes,Dança,Coreografia,DAN102,Coreografia,Optativa,Dança,3º
+Artes,Cinema,Teoria Cinematográfica,CIN101,Teoria e Linguagem Cinematográfica,Mandatória,Cinema,1º
+Artes,Cinema,Edição,CIN102,Edição de Vídeo e Som,Optativa,Cinema,2º

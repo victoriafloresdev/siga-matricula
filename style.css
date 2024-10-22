@@ -1,0 +1,338 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #042474;
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 {
+    color: white;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 2rem;
+    padding-left: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 100px;
+    margin-left: auto;
+    padding-right: 50px;
+}
+
+/* Tabs styling */
+.tabs-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.tabs-container button {
+    flex: 1;
+    padding: 15px 0;
+    border: none;
+    background-color: #f4f4f9;
+    font-size: 1rem;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+.tabs-container button:hover {
+    background-color: #e0e0e0;
+}
+
+.tabs-container button.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #042474;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+}
+
+.tabcontent.active {
+    display: block;
+}
+
+/* Main content layout */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Módulos de disciplinas */
+#mandatory-disciplines, #optative-disciplines {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Estilização do hover para disciplinas obrigatórias */
+#mandatory-disciplines label {
+    cursor: pointer;  /* Cursor clicável */
+    color: #042474;   /* Cor padrão do texto */
+    transition: color 0.3s ease; /* Transição suave da cor */
+}
+
+#mandatory-disciplines label:hover {
+    color: #FF5733; /* Cor laranja ao passar o mouse */
+}
+
+
+
+/* Estilização de checkbox */
+input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #042474;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 10px;
+    position: relative;
+    top: 4px;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #FF5733;
+    border-color: #FF5733;
+}
+
+input[type="checkbox"]:before {
+    content: '✔';
+    color: white;
+    position: absolute;
+    display: none;
+    font-size: 14px;
+    top: -2px;
+    left: 4px;
+}
+
+input[type="checkbox"]:checked:before {
+    display: block;
+}
+
+/* Estilo das disciplinas optativas */
+#optative-disciplines ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+#optative-disciplines ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #042474;
+}
+
+#optative-disciplines ul li:hover {
+    color: #FF5733;
+    cursor: pointer;
+}
+
+/* Título das subáreas */
+.subarea h4 {
+    font-size: 1.2rem;
+    color: #FF5733;
+    margin-bottom: 10px;
+}
+
+/* Estilização da Grade Final */
+#final-schedule {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
+#final-schedule li {
+    margin-bottom: 10px;
+    color: #042474;
+}
+
+#final-schedule li:hover {
+    color: #FF5733;
+    cursor: default;
+}
+
+
+/* Left and right blocks */
+.left-block, .right-block {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+/* Espaço entre o título "Áreas de Conhecimento" e as caixas */
+#general-areas {
+    margin-top: 30px;
+}
+
+/* Reduzindo o espaço entre as caixas das áreas */
+.dropdown-btn {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: #042474;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.dropdown-btn:hover {
+    background-color: #3f529f;
+}
+
+/* Estilo para o conteúdo dos dropdowns */
+.dropdown-content {
+    display: none;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.dropdown-content.active {
+    display: block;
+}
+
+.dropdown-content h4 {
+    color: #FF5733;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.dropdown-content h5 {
+    color: #042474;
+    margin-bottom: 10px;
+}
+
+.dropdown-content ul {
+    list-style-type: none;
+}
+
+.dropdown-content ul li {
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.dropdown-content ul li:hover {
+    color: #FF5733;
+    cursor: pointer;
+}
+
+/* Espaçamento adicional entre as áreas e subáreas */
+.general-areas-section {
+    margin-bottom: 10px;
+}
+
+/* Ajuste no espaçamento dentro das subáreas e subáreas2 */
+.subarea, .subarea2 {
+    margin-bottom: 20px;
+}
+
+/* Caixa de pesquisa */
+.search-box-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #f4f4f9;
+    border-radius: 15px;
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.search-box {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box input[type="text"] {
+    width: 85%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.search-box button {
+    padding: 12px 20px;
+    margin-left: 10px;
+    background-color: #042474;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-box button:hover {
+    background-color: #333;
+}
+
+/* Estilização para Disciplinas Relacionadas */
+#related-disciplines {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    max-height: 400px; /* Limitar a altura com rolagem */
+    overflow-y: auto;
+}
+
+#related-disciplines li {
+    margin-bottom: 10px;
+    color: #042474;
+}
+
+#related-disciplines li:hover {
+    color: #FF5733;
+    cursor: pointer;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    color: rgb(116, 109, 109);
+}

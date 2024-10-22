@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de Disciplinas - SIGA UFMG</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="siga-logo.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Matrícula Acadêmica</h1>
+            <img src="siga-logo.jpg" alt="Logo SIGA UFMG" class="logo">
+        </div>
+    </header>
+
+    <!-- New Tabs below header -->
+    <div class="tabs-container">
+        <button class="tablinks" onclick="openTab(event, 'Especifico')">Núcleo Específico</button>
+        <button class="tablinks" onclick="openTab(event, 'Geral')">Núcleo Geral</button>
+    </div>
+
+    <!-- Núcleo Específico -->
+    <div id="Especifico" class="tabcontent">
+        <div class="main-content">
+            <section class="left-block">
+                <h3>Disciplinas Obrigatórias</h3>
+                <div id="mandatory-disciplines">
+                    <!-- Mandatory disciplines with checkboxes will be rendered here -->
+                </div>
+    
+                <h3>Disciplinas Optativas</h3>
+                <div id="optative-disciplines">
+                    <!-- Elective disciplines with checkboxes will be rendered here -->
+                </div>
+            </section>
+    
+            <section class="right-block">
+                <h3>Grade Final</h3>
+                <ul id="final-schedule">
+                    <!-- Final schedule of selected disciplines -->
+                </ul>
+            </section>
+        </div>
+    </div>
+    
+
+    <!-- Núcleo Geral -->
+    <!-- Núcleo Geral -->
+    <div id="Geral" class="tabcontent">
+        <section class="search-section">
+            <div class="search-box-container">
+                <div class="search-box">
+                    <input type="text" id="search" placeholder="Buscar por disciplina, palavra-chave, ou código">
+                    <button id="searchBtn">Buscar</button>
+                </div>
+            </div>
+            <div class="main-content">
+                <section class="left-block">
+                    <h3>Áreas de Conhecimento</h3>
+                    <div id="general-areas">
+                        <!-- Dropdowns for areas and sub-categories will be rendered here -->
+                    </div>
+                </section>
+
+                <section class="right-block">
+                    <h3>Disciplinas Relacionadas</h3>
+                    <ul id="related-disciplines">
+                        <!-- Search results will be displayed here -->
+                    </ul>
+                </section>
+            </div>
+        </section>
+    </div>
+
+
+    <footer>
+        <p>&copy; 2024 SIGA UFMG. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
